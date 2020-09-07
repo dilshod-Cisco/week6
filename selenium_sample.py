@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome() #
+driver = webdriver.Chrome() # starts browser
 # or specify the path: driver = webdriver.Chrome('/path/to/chromedriver')
 driver.get("https://google.com")
 print("opened the browser and google website")
@@ -24,4 +24,4 @@ print("hit the inter button")
 time.sleep(3)
 
 print("now closing the browser  .....")
-driver.close()
+#driver.close()
