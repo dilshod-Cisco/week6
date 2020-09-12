@@ -12,6 +12,7 @@
 #     finally: # always executed either try block or except block executed
 #         print("finally block is executed.")
 #
+# ===== unit test for automation script =====================
 # division(45,15)
 # division(45,0) # exception handling expected
 # division(45,10)
